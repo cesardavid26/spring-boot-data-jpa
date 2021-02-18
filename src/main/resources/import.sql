@@ -24,3 +24,11 @@ INSERT INTO `clientes` (nombre, apellido, email, create_at, foto) VALUES('Cheste
 INSERT INTO `clientes` (nombre, apellido, email, create_at, foto) VALUES('Martha', 'Chacin', 'martha@gmail.com', '2017-04-13', '');
 INSERT INTO `clientes` (nombre, apellido, email, create_at, foto) VALUES('Diana', 'Leon', 'diana@gmail.com', '2018-07-19', '');
 INSERT INTO `clientes` (nombre, apellido, email, create_at, foto) VALUES('Robert', 'Deniro', 'deniro@gmail.com', '1999-10-26', '');
+
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('Panasonic Pantalla LCD', '700000', NOW());
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('Xiaomi Celular 64GB', '600000', NOW());
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('Apple iPod Shuffle', '800000', NOW());
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('HP Computador Portatil', '1500000', NOW());
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('Sony Camara Digital', '1000000', NOW());
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('Sony Audifonos SuperBass', '200000', NOW());
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('Samsung TV SMART 42"', '1500000', NOW());
