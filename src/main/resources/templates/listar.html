@@ -24,9 +24,8 @@
 							<th>Apellido</th>
 							<th>Email</th>
 							<th>Fecha</th>
-							<th>Ver</th>
-							<th>Editar</th>
-							<th>Eliminar</th>
+							<th style="text-align: center;">Acciones</th>
+							
 						</tr>
 					</thead>
 					<tbody>
@@ -37,12 +36,13 @@
 							<td th:text="${cliente.email}"></td>
 							<td th:text="${cliente.createAt}"></td>
 							<td><a class="btn btn-secondary btn-xs"
-							th:href="@{/ver/} + ${cliente.id}" th:text="'ver'"></a></td>
-							<td><a class="btn btn-primary btn-xs"
-								th:href="@{/form/} + ${cliente.id}" th:text="'editar'"></a></td>
-							<td><a class="btn btn-danger btn-xs"
+							th:href="@{/ver/} + ${cliente.id}" th:text="'ver'"></a>
+							<a class="btn btn-primary btn-xs"
+								th:href="@{/form/} + ${cliente.id}" th:text="'editar'"></a>
+								<a class="btn btn-danger btn-xs"
 								th:href="@{/eliminar/} + ${cliente.id}" th:text="'eliminar'"
 								onclick="return confirm('¿Está seguro de eliminar el registro?')"></a></td>
+							
 						</tr>
 					</tbody>
 				</table>
