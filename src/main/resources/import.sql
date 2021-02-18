@@ -25,10 +25,19 @@ INSERT INTO `clientes` (nombre, apellido, email, create_at, foto) VALUES('Martha
 INSERT INTO `clientes` (nombre, apellido, email, create_at, foto) VALUES('Diana', 'Leon', 'diana@gmail.com', '2018-07-19', '');
 INSERT INTO `clientes` (nombre, apellido, email, create_at, foto) VALUES('Robert', 'Deniro', 'deniro@gmail.com', '1999-10-26', '');
 
-INSERT INTO `productos` (nombre, precio, create_at) VALUES('Panasonic Pantalla LCD', '700000', NOW());
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('LG Teatro en casa', '700000', NOW());
 INSERT INTO `productos` (nombre, precio, create_at) VALUES('Xiaomi Celular 64GB', '600000', NOW());
 INSERT INTO `productos` (nombre, precio, create_at) VALUES('Apple iPod Shuffle', '800000', NOW());
 INSERT INTO `productos` (nombre, precio, create_at) VALUES('HP Computador Portatil', '1500000', NOW());
 INSERT INTO `productos` (nombre, precio, create_at) VALUES('Sony Camara Digital', '1000000', NOW());
 INSERT INTO `productos` (nombre, precio, create_at) VALUES('Sony Audifonos SuperBass', '200000', NOW());
 INSERT INTO `productos` (nombre, precio, create_at) VALUES('Samsung TV SMART 42"', '1500000', NOW());
+
+INSERT INTO `facturas` (descripcion, observacion, cliente_id, create_at) VALUES('Factura clases virtuales', null, 1, NOW());
+INSERT INTO `factura_items` (cantidad, producto_id, factura_id) VALUES(2, 4, 1);
+INSERT INTO `factura_items` (cantidad, producto_id, factura_id) VALUES(2, 6, 1);
+INSERT INTO `factura_items` (cantidad, producto_id, factura_id) VALUES(3, 2, 1);
+
+INSERT INTO `facturas` (descripcion, observacion, cliente_id, create_at) VALUES('Factura entretenimiento', 'Algo importante!', 1, NOW());
+INSERT INTO `factura_items` (cantidad, producto_id, factura_id) VALUES(1, 1, 2);
+INSERT INTO `factura_items` (cantidad, producto_id, factura_id) VALUES(2, 7, 2);
