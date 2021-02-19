@@ -32,11 +32,11 @@ INSERT INTO `productos` (nombre, precio, create_at) VALUES('HP Computador Portat
 INSERT INTO `productos` (nombre, precio, create_at) VALUES('Sony Camara Digital', '1000000', NOW());
 INSERT INTO `productos` (nombre, precio, create_at) VALUES('Sony Audifonos SuperBass', '200000', NOW());
 INSERT INTO `productos` (nombre, precio, create_at) VALUES('Samsung TV SMART 42"', '1500000', NOW());
-INSERT INTO `productos` (nombre, precio, create_at) VALUES('Kingston Memoria SD"', '40000', NOW());
-INSERT INTO `productos` (nombre, precio, create_at) VALUES('Gamepad para celular"', '30000', NOW());
-INSERT INTO `productos` (nombre, precio, create_at) VALUES('PS4 PRO"', '1500000', NOW());
-INSERT INTO `productos` (nombre, precio, create_at) VALUES('Control PS4"', '250000', NOW());
-INSERT INTO `productos` (nombre, precio, create_at) VALUES('Sony Reproductor Bluray"', '500000', NOW());
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('Kingston Memoria SD', '40000', NOW());
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('Gamepad para celular', '30000', NOW());
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('PS4 PRO', '1500000', NOW());
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('Control PS4', '250000', NOW());
+INSERT INTO `productos` (nombre, precio, create_at) VALUES('Sony Reproductor Bluray', '500000', NOW());
 
 INSERT INTO `facturas` (descripcion, observacion, cliente_id, create_at) VALUES('Factura clases virtuales', null, 1, NOW());
 INSERT INTO `factura_items` (cantidad, producto_id, factura_id) VALUES(2, 4, 1);
