@@ -19,7 +19,7 @@ public class Role implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	private String auhtority;
+	private String authority;
 
 	
 	
@@ -32,11 +32,11 @@ public class Role implements Serializable {
 	}
 
 	public String getAuhtority() {
-		return auhtority;
+		return authority;
 	}
 
 	public void setAuhtority(String auhtority) {
-		this.auhtority = auhtority;
+		this.authority = auhtority;
 	}
 
 }
